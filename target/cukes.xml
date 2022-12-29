@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="40.427">
+<testcase classname="Change currency" name="Change currency to Euro" time="20.9">
+<system-out><![CDATA[Given User goes to  programs page...........................................passed
+And User select tuition fees filter.........................................passed
+And User clicks on Change Currency..........................................passed
+And User selects EUR from currency list.....................................passed
+When User save changes......................................................passed
+Then currency is changed to Euro in the programs listing....................passed
+And currency is changed to Euro in program details screen...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Favorite a program" name="Favorite a program from programs page" time="18.992">
+<system-out><![CDATA[Given User logged in successfully...........................................passed
+And User opens programs page................................................passed
+And User clicks more details................................................passed
+When User clicks on favorite icon...........................................passed
+And User opens Dashboard....................................................passed
+And User opens favorites section............................................passed
+Then The selected programs appear on favorites..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
